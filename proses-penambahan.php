@@ -12,7 +12,7 @@ if(isset($_POST['tambah'])){
     $nomorhp = $_POST['nomorhp'];
     $email = $_POST['email'];
     $kegiatan = $_POST['kegiatan'];
-    $sekolah = $_POST['nama_kegiatan'];
+    $nama_kegiatan = $_POST['nama_kegiatan'];
 
     // membuat query
     $sql = "INSERT INTO data_zoom (nama, nomorhp, email, kegiatan, nama_kegiatan) VALUE ('$nama', '$nomorhp', '$email', '$kegiatan', '$nama_kegiatan')";
